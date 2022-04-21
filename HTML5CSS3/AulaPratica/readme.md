@@ -1,6 +1,6 @@
 # AVISO
 OS  ARQUIVOS PRECISAM SER RODADOS EM ALGUM SERVIDOR. EU USEI  O XAMPP
 
-(DOWNLOAD XAMPP)[https://www.apachefriends.org/pt_br/download.html]
+[DOWNLOAD XAMPP](https://www.apachefriends.org/pt_br/download.html)
 
 APÓS O DOWNLOAD,A  PASTA  "AULA PRÁTICA" DEVERÁ SER  MOVIDA PARA DENTRO DA PASTA HTDOCS (que fica dentro da pasta Xampp). ENTÃO,É SÓ STARTAR O APACHE 😁

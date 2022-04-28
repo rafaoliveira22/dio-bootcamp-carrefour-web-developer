@@ -1,0 +1,152 @@
+:root{
+    --color-bg: #141414;
+    --color-logo: #ff2800;
+
+    --color-text:#fff;  
+    --color-hover-text:#e5e5e5;
+}
+
+body{
+    min-height:100vh;
+
+    background-color:var(--color-bg);
+    color:var(--color-text);
+}
+
+.container-header{
+    padding:20px 0 20px 0;
+}
+
+.container-header > .container{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container{
+    margin: 0 40px 0 40px;
+}
+
+.header-logo{
+    color:var(--color-logo)
+}
+
+.header-nav{
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+}
+
+.nav-item{
+    text-decoration:none;
+    color:var(--color-text);
+}
+
+.nav-item:hover{
+    color:var(--color-text)
+}
+
+.midia-principal{
+    background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url("../img/banner-midia-prinicipal.jpg");
+    background-size:cover;
+
+    height:100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+
+    margin: top 20px;
+}
+
+.info-midia-principal{
+    max-width:50%;
+    margin-left:20px;
+}
+.title-midia-principal{
+    font-size:5em;
+    color:var(--color-logo)
+}
+
+.descricao-midia-principal{
+    font-size:1.3em;
+}
+
+.botoes-midia-principal{
+    margin-left:20px;
+    width:100%;
+}
+
+.btn-midia-principal{
+    max-width:2000px;
+    height:60px;
+
+    padding: 0 10px 0 10px;
+    background:#fff;
+    border-radius:10px;
+
+    margin-right:10px;
+    font-weight:bold;
+    cursor: pointer;
+}
+
+.btn-midia-principal:hover{
+    background-color:rgba(109,109,110,0.4);
+    transition:0.5s;
+}
+
+.btn-2{
+    max-width: 250px;
+    background:rgba(109,109,110,0.4) !important;
+    color: var(--color-text);
+}
+
+.btn-2:hover{
+    background:rgba(109,109,110,0.6) !important
+}
+
+.carroseis{
+    margin-top:10%;
+}
+
+.carrosel{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.title-carrosel{
+    margin-bottom:8px;
+}
+
+
+.box-banner{
+    width:100%;
+    height:100%;
+    display: block;
+}
+
+.footer-contato{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+
+    padding:20px;
+
+    
+}
+
+.footer-contato > a{
+    color:#fff;
+}
+
+.logo-midia-principal{
+    width:400px;
+    height:250px;
+    margin-bottom:10px;
+}
+
+
